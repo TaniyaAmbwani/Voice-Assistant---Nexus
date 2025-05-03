@@ -49,7 +49,7 @@ def processCommand(command):
     
     
     elif "news" in command.lower():
-        recognizer = requests.get("https://newsapi.org/v2/everything?q=tesla&from=2024-08-20&sortBy=publishedAt&apiKey=aed675be1c194899b9f3e2a4415d307c")
+        recognizer = requests.get("#Key")
         
     
         if recognizer.status_code == 200:
